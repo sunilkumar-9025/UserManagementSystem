@@ -1,0 +1,145 @@
+/* ......................................Navbar.css............................................................... */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  background-color: lightblue;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888888;
+  width: 100%;
+}
+.userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+.userInfo button {
+  border: none;
+  border-radius: 5px;
+}
+.userInfo button:hover {
+  background-color: rgb(112, 112, 223);
+}
+
+/* .........................................................main.css........................................ */
+.main {
+  display: flex;
+}
+
+/* ...........................................................sidenav................................................... */
+.sidenav-cont {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightblue;
+  min-height: 90vh;
+  border: 1px solid;
+  padding: 20px;
+  box-shadow: 5px 10px 18px #888888;
+}
+.sidenav-top {
+  display: flex;
+}
+
+.side-logo {
+  font-size: 22px;
+}
+.side-bar {
+  font-size: larger;
+}
+.link {
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.icon {
+  margin: 10px 10px;
+}
+.active {
+  color: red;
+}
+/* ...............................................Dahboard............................................................... */
+.dashboard-cont {
+  width: 95%;
+  min-height: 90vh;
+  align-self: flex-start;
+  overflow-x: hidden;
+}
+
+.dashboard-cont button {
+  margin: 10px 40%;
+}
+
+.dashboard-cont button:hover {
+  background-color: lightgreen;
+}
+.dashboard-cont button:active {
+  background-color: lightgoldenrodyellow;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 10px 2%;
+}
+
+/* .....................................................AddForm..................................... */
+.addform {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 28%;
+  background-color: rgb(151, 223, 223);
+  border-radius: 10px;
+  top: 80px;
+  border: 1px solid;
+  padding: 20px;
+  box-shadow: 5px 10px 18px #888888;
+}
+.addform h3 {
+  text-align: center;
+}
+
+.addform form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+}
+.addform button {
+  width: 30%;
+  border: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.addform input {
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+}
+
+/* ................................................ShowTable.............................................................. */
+.table-edit {
+  width: 150px;
+}
+
+@media screen and (max-width: 800px) {
+  table {
+    font-size: 12px;
+  }
+  .addform {
+    margin: 10px 30px;
+  }
+}
+@media screen and (max-width: 620px) {
+  table {
+    font-size: 8px;
+  }
+}
+a {
+  text-decoration: none;
+}
